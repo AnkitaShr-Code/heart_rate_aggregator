@@ -14,7 +14,7 @@ This API processes and stores clinical data, particularly heart rate data, and a
    ```bash
    git clone https://github.com/AnkitaShr-Code/heart_rate_aggregator.git
 2.	Navigate to the project directory: 
-3.	cd heart-rate-api
+3.	cd heart_rate_aggregator
 4.	Install dependencies: 
 5.	npm install
 6.	Configure the Database
