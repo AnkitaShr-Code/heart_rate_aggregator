@@ -36,17 +36,7 @@ Usage
 1.	Start the server: 
 2.	npm start
 3.	Send a POST request to http://localhost:3000/api/heart-rate with the payload.
-Example Payload
-[
-    {
-        "from_date": "2020-10-06T07:00:00.0Z",
-        "to_date": "2020-10-06T07:15:00.0Z",
-        "measurement": {
-            "low": "65",
-            "high": "120"
-        }
-    }
-]
+Sample payload can be found in tests/mockData
 Response Format
 {
     "success": true,
