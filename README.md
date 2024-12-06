@@ -16,6 +16,7 @@ This API processes and stores clinical data, particularly heart rate data, and a
 2.	Navigate to the project directory: 
    ```bash
   	cd heart_rate_aggregator
+   ```
 4.	Install dependencies: 
    ```bash
    npm install
