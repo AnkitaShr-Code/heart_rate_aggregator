@@ -20,6 +20,7 @@ This API processes and stores clinical data, particularly heart rate data, and a
 4.	Install dependencies: 
    ```bash
    npm install
+   ```
 5.	Configure the Database
     o	Open config/config.json to configure the database connection if needed.
     o	By default, SQLite is configured: 
@@ -32,17 +33,20 @@ This API processes and stores clinical data, particularly heart rate data, and a
 6.	Run Database Migrations
    ```bash
    npx sequelize-cli db:migrate
+```
 7.	Start the Server
    ```bash
    npm start
+   ```
 8. To run test:
    ```bash
    npm test
-
+   ```
 Usage
 1.	Start the server: 
    ```bash
    npm start
+   ```
 2.	Send a POST request to http://localhost:3000/api/heart-rate with the payload.
    Sample payload can be found in tests/mockData
 3. Response Format
