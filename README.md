@@ -14,10 +14,10 @@ This API processes and stores clinical data, particularly heart rate data, and a
    ```bash
    git clone https://github.com/AnkitaShr-Code/heart_rate_aggregator.git
 2.	Navigate to the project directory: 
-   cd heart_rate_aggregator
-4.	Install dependencies: 
-   npm install
-6.	Configure the Database
+      cd heart_rate_aggregator
+3.	Install dependencies: 
+      npm install
+4.	Configure the Database
     o	Open config/config.json to configure the database connection if needed.
     o	By default, SQLite is configured: 
     o	{
@@ -26,18 +26,19 @@ This API processes and stores clinical data, particularly heart rate data, and a
     o	    "storage": ":memory:"
     o	  }
     o	}
-7.	Run Database Migrations
-8.	npx sequelize-cli db:migrate
-9.	Start the Server
-10.	npm start
-11. To run test: npm test
+5.	Run Database Migrations
+      npx sequelize-cli db:migrate
+6.	Start the Server
+      npm start
+7. To run test:
+      npm test
 
 Usage
 1.	Start the server: 
-2.	npm start
-3.	Send a POST request to http://localhost:3000/api/heart-rate with the payload.
-Sample payload can be found in tests/mockData
-4. Response Format
+      npm start
+2.	Send a POST request to http://localhost:3000/api/heart-rate with the payload.
+   Sample payload can be found in tests/mockData
+3. Response Format
 {
     "success": true,
     "message": "Data processed successfully",
