@@ -37,7 +37,7 @@ Usage
 2.	npm start
 3.	Send a POST request to http://localhost:3000/api/heart-rate with the payload.
 Sample payload can be found in tests/mockData
-Response Format
+4. Response Format
 {
     "success": true,
     "message": "Data processed successfully",
